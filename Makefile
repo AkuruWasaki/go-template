@@ -10,3 +10,6 @@ down: #コンテナ停止
 run: #コンテナの中にはいる
 	docker-compose run --rm web /bin/bash
 
+server: #main.go実行
+	go run app/cmd/main.go
+
